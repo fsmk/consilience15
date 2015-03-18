@@ -1,0 +1,9 @@
+.github-ribbon{
+        right: 0;
+        width: 12%;
+        border: 0;
+        position: absolute;
+        z-index: 10000000;
+        top: 0;
+  
+}

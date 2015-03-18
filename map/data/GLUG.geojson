@@ -1,0 +1,24 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CMRIT",
+        "department": "ISE",
+        "labs": "All except Microprocessor Lab, Logic Design Lab and Database Lab",
+        "distro": "Ubuntu",
+        "labmanual": "Not yet",
+        "glug":"Yes, CMRIT GLUG",
+        "info":"Abrar Syed, Student"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.96658,
+          77.71236
+        ]
+      }
+    }
+  ]
+}
