@@ -302,6 +302,57 @@
     </div>
   </section>
 
+
+
+  <a name="about"></a>
+  <section class="section-speakers" style="background: none repeat scroll 0% 0% #298B93;">
+    <h1 style="color: white;">About</h1>
+      <div class="container">
+       <ul class="img-list">
+        <li>
+          <img src="images/NetNeutrality_logo.jpg"/>
+          <span class="text-content"><span><button class="btn" onclick="show_nn()">Read More</button></span></span>
+        </li>
+        <li>
+          <img src="images/Consilience.jpg" />
+          <span class="text-content"><span><button class="btn" onclick="show_consilience()">Read More</button></span>
+        </a>
+        </li>
+        <li>
+          <img src="images/nlsiu.jpg"/>
+          <span class="text-content"><span><button class="btn" onclick="show_nlsui()">Read More</button></span>
+        </a>
+        </li>                                
+      </ul>
+  
+      <div id="about-nn">
+        <p>Net Neutrality
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui inventore doloribus numquam, nisi optio eius, exercitationem, assumenda saepe quidem dolor temporibus recusandae rerum incidunt aliquam deserunt non cum illum quia?
+        </p>
+      </div>
+
+      <div id="about-consilience">
+        <p>Consilience
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui inventore doloribus numquam, nisi optio eius, exercitationem, assumenda saepe quidem dolor temporibus recusandae rerum incidunt aliquam deserunt non cum illum quia?
+        </p>
+      </div>
+
+      <div id="about-nlsui">
+        <p>NLSUI
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui inventore doloribus numquam, nisi optio eius, exercitationem, assumenda saepe quidem dolor temporibus recusandae rerum incidunt aliquam deserunt non cum illum quia?
+        </p>
+      </div>
+               
+
+    </div>
+  </section>
+
+
+
+
+
+
+
   <a name="sponsors"></a>
   <section class="section-sponsors">
 
@@ -406,4 +457,30 @@
 
 
 <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script><script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script><script type="text/javascript" src="js/jquery.ui.map.min.js"></script><script type="text/javascript" src="js/bootstrap.min.js"></script><script type="text/javascript" src="js/jquery.flexslider-min.js"></script><script type="text/javascript" src="js/jquery.carousel.js"></script><script type="text/javascript" src="js/jquery.scrollTo-1.4.3.1-min.js"></script><script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script><script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script><script type="text/javascript" src="js/jquery.nav.js"></script><script type="text/javascript" src="js/jquery.countdown.min.js"></script><script type="text/javascript" src="js/tweetie.min.js"></script><script type="text/javascript" src="js/custom.js"></script>
-<script type="text/javascript" async="" src="./content/js"></script><script src="./content/main.js"></script></body></html>
+<script type="text/javascript" async="" src="./content/js"></script><script src="./content/main.js"></script>
+
+
+<script type="text/javascript">
+    $("#about-nn").hide();
+    $("#about-consilience").hide();
+    $("#about-nlsui").hide();
+
+  function show_nn(){
+    $("#about-nn").show();
+    $("#about-consilience").hide();
+    $("#about-nlsui").hide();
+  }
+
+  function show_consilience(){
+    $("#about-nn").hide();
+    $("#about-consilience").show();
+    $("#about-nlsui").hide();
+  }
+  function show_nlsui(){
+    $("#about-nn").hide();
+    $("#about-consilience").hide();
+    $("#about-nlsui").show();  }
+
+</script>
+
+</body></html>
