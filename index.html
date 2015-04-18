@@ -268,7 +268,7 @@
     <div id ="videos-news">
       <h1>News</h1>
       <iframe id="video-youtube" width="560" height="315" src="https://www.youtube.com/embed/mfY1NKrzqi0" frameborder="0" allowfullscreen></iframe>
-      <iframe id="video-youtube" width="560" height="315" src="https://www.youtube.com/watch?v=fpbOEoRrHyU" frameborder="0" allowfullscreen></iframe>      
+      <iframe id="video-youtube" width="560" height="315" src="https://www.youtube.com/embed/fpbOEoRrHyU" frameborder="0" allowfullscreen></iframe>      
     </div>
     <div class="container">
     <div id="twitter-status" class="flex-container">
@@ -277,6 +277,13 @@
         <script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script> 
       </div>
     </div>
+    
+
+    </div>
+    <div class="container">
+    <h3>Visit <a href="http://netneutrality.in" target="_blank">NetNeutrality</a> or <a href="http://savetheinternet.in">SaveTheInternet</a> for more info on NetNeutrality</h3>
+    </div>
+    
   </section>
 
   <a name="about"></a>
@@ -284,10 +291,10 @@
     <h1 style="color: white;">About</h1>
       <div class="container">
        <ul class="img-list">
-        <li>
+        <!-- <li>
           <img src="images/NetNeutrality_logo.jpg"/>
           <span class="text-content"><span><button class="btn" onclick="show_nn()">Read More</button></span></span>
-        </li>
+        </li> -->
         <li>
           <img src="images/Consilience.jpg" />
           <span class="text-content"><span><button class="btn" onclick="show_consilience()">Read More</button></span>
@@ -300,11 +307,11 @@
         </li>                                
       </ul>
   
-      <div id="about-nn">
+      <!-- <div id="about-nn">
         <h2>Net Neutrality</h2>
         <p>Network neutrality is the principle that all Internet traffic should be treated equally. According to Columbia Law School professor Tim Wu, the best way to explain network neutrality is as when designing a network: that a public information network will end up being most useful if all content, sites, and platforms are treated equally. A more detailed proposed definition of technical and service network neutrality suggests that service network neutrality is the adherence to the paradigm that operation of a service at a certain layer is not influenced by any data other than the data interpreted at that layer, and in accordance with the protocol specification for that layer.
         </p>
-      </div>
+      </div> -->
 
       <div id="about-consilience">
         <h2>Consilience</h2>
@@ -323,18 +330,13 @@
   </section>
 
 
-
-
   <footer class="section-footer">
 
+    <div class="pull-right footer-top"><a href="#">Back to top</a></div>
     <div class="container">
-      <small>FSMK Copy Heart.</small>
-
-      <code>&lt;script&gt;Consilience.end();&lt;/script&gt;</code>
+      <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/2.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/">Creative Commons Attribution-ShareAlike 2.0 Generic License</a>.
     </div>
-
   </footer>
-
 
 </main>
 
@@ -353,23 +355,23 @@
 
 
 <script type="text/javascript">
-    $("#about-nn").hide();
+    /*$("#about-nn").hide();*/
     $("#about-consilience").hide();
     $("#about-nlsui").hide();
 
-  function show_nn(){
+  /*function show_nn(){
     $("#about-nn").show();
     $("#about-consilience").hide();
     $("#about-nlsui").hide();
-  }
+  }*/
 
   function show_consilience(){
-    $("#about-nn").hide();
+    /*$("#about-nn").hide();*/
     $("#about-consilience").show();
     $("#about-nlsui").hide();
   }
   function show_nlsui(){
-    $("#about-nn").hide();
+    /*$("#about-nn").hide();*/
     $("#about-consilience").hide();
     $("#about-nlsui").show();  }
 
