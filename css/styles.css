@@ -10029,3 +10029,14 @@ main {
   -o-transition: opacity 500ms;
   transition: opacity 500ms;
 }
+#videos-news  {
+  text-align: center;
+}
+#video-youtube {
+  margin-top: 2%;
+}
+#twitter-status iframe.twitter-tweet,
+#twitter-status blockquote {
+  display: inline-block;
+  width: 40%;
+}
