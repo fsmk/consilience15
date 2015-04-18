@@ -9972,7 +9972,6 @@ main {
 }
 
 .section-speakers ul.img-list li img{
-  border: 2px solid #0E374E;
   height: 150px;
   width: 150px;
 }
@@ -10029,4 +10028,35 @@ main {
   -moz-transition: opacity 500ms;
   -o-transition: opacity 500ms;
   transition: opacity 500ms;
+}
+#videos-news  {
+  text-align: center;
+}
+#video-youtube {
+  margin-top: 2%;
+}
+#twitter-status {
+  text-align: center;
+}
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  padding: 5px;
+  width: 45%;
+  margin-top: 10px;
+  text-align: center;
 }
