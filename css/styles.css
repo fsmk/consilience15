@@ -10070,5 +10070,6 @@ main {
   font-size: 28px;
 }
 #nav-header {
-  padding: 10px 15px 10px;  
+  padding-top: 5px;
+  padding-left: 10px;  
 }
