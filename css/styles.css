@@ -10069,3 +10069,6 @@ main {
 .footer-top{
   font-size: 28px;
 }
+#nav-header {
+  padding: 10px 15px 10px;  
+}
