@@ -9978,6 +9978,9 @@ main {
   width: 150px;
 }
 
+.section-speakers.round ul.img-list li img{
+  border-radius: 100px;
+}
 
 .section-speakers span.text-content {
   background: rgba(0,0,0,0.5);
