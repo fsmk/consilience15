@@ -10152,6 +10152,11 @@ main {
     text-align: left;
   }
 
-  
+.partner-logo {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
-
+.section-partners h3{
+  text-align: center;
+} 
