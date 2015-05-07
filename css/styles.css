@@ -2550,6 +2550,9 @@ h1.logo {
       padding-left: 20px;
       list-style-type: square; }
 
+.section-agenda{
+  background: #EF7247;
+}
 .illustration-tickets {
   position: relative;
   background: url(images/illustration-tickets.png) no-repeat -100px 0;
